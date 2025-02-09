@@ -3,7 +3,7 @@
 Oil Price Fluctuations & Sales Forecasting
 This project explores the impact of oil price fluctuations on grocery sales in Ecuador from 2013 to 2017, leveraging econometric models, time-series forecasting, and machine learning techniques.
 
-**Key Features:**
+### **Key Features:**
 
 📊 Data Processing & Cleaning: Handles missing values, merges datasets, and preprocesses data for analysis.
 
@@ -15,17 +15,17 @@ This project explores the impact of oil price fluctuations on grocery sales in E
 
 📈 Visualization & Insights: Uses ggplot2, modeltime, and forecast to create meaningful visualizations.
 
-Technologies Used:
+### Technologies Used:
 1. R (tidymodels, forecast, rugarch, ggplot2, caret, modeltime)
 2. Cloud Platforms: AWS Redshift, Google Cloud BigQuery
 3. Machine Learning: Random Forest, ANN, Elastic Net
 
-**🔗 Usage & Instructions:**
+### **🔗 Usage & Instructions:**
 
 1. Install required packages using install.packages().
 2. Load datasets and preprocess missing values.
 3. Run forecasting models and evaluate their performance.
 4. Visualize trends using ggplot2 and time-series decomposition.
 
-📌 Contributions & Improvements Welcome! 🚀
+📌 Contributions & Improvements Welcome!
 
