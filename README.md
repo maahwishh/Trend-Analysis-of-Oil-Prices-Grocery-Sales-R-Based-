@@ -1,2 +1,26 @@
 # Trend Analysis of Oil Prices Grocery Sales (R-Based)
-This analysis evaluated multiple forecasting models to predict key sales trends for Ecuadorian retail data from 2013 to 2017. Various statistical and machine learning approaches, including ARIMA, Prophet, TBATS, Random Forest, and GARCH(1,1), were employed and assessed for their accuracy using key metrics like RMSE, MAE, and R-squared. Random Forest consistently outperformed other models with the lowest RMSE (67.9), demonstrating its capability to handle non-linear patterns and complex relationships in the data. ARIMA and Prophet delivered moderate performance, balancing simplicity with predictive accuracy. GARCH(1,1), optimized for modeling volatility, exhibited poor forecasting performance, emphasizing its unsuitability for this dataset. For accurate sales forecasting, Random Forest is the most reliable choice, offering superior predictive power compared to traditional statistical methods and volatility-based models. This insight is crucial for decision-makers to optimize inventory management, promotional strategies, and operational planning in Ecuador&#39;s retail sector.
+
+Oil Price Fluctuations & Sales Forecasting
+This project explores the impact of oil price fluctuations on grocery sales in Ecuador from 2013 to 2017, leveraging econometric models, time-series forecasting, and machine learning techniques.
+
+**Key Features:**
+📊 Data Processing & Cleaning: Handles missing values, merges datasets, and preprocesses data for analysis.
+🔍 Time-Series Analysis: Implements ARIMA, SARIMA, Prophet, TBATS, and GARCH models to analyze sales trends.
+⚡ Machine Learning Approaches: Includes Random Forest, Elastic Net Regression, and Neural Networks (ANN) for predictive modeling.
+☁ Cloud Integration: Utilizes AWS Redshift & Google Cloud BigQuery for data storage and processing.
+📈 Visualization & Insights: Uses ggplot2, modeltime, and forecast to create meaningful visualizations.
+
+Technologies Used:
+1. R (tidymodels, forecast, rugarch, ggplot2, caret, modeltime)
+2. Cloud Platforms: AWS Redshift, Google Cloud BigQuery
+3. Machine Learning: Random Forest, ANN, Elastic Net
+
+**🔗 Usage & Instructions:**
+
+1. Install required packages using install.packages().
+2. Load datasets and preprocess missing values.
+3. Run forecasting models and evaluate their performance.
+4. Visualize trends using ggplot2 and time-series decomposition.
+
+📌 Contributions & Improvements Welcome! 🚀
+
